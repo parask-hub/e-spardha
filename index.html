@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" media="max-width: 768px" href="mobile.css" />
+    <link rel="stylesheet" href="mainfile.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Spardha</title>
+</head>
+
+<body>
+
+    <div class="buffer" id="top">
+        e-Spardha
+    </div>
+    <div id="header">
+
+        <div class="navbar">
+            <div class=" navbar_link-logo">
+                E-Spardha
+            </div>
+            <div class="navbar_link navbar_link-toggle">
+                <img src="./icons/icons8-menu-50.png" height="20px" width="30px">
+            </div>
+
+            <nav class="navbar_items">
+                <div class="navbar_link">
+                    <a href="#"> Home </a>
+                </div>
+                <!-- DROPDOWN OF COURSES -->
+                <div class="navbar_link">
+                    <span class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Courses
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">JEE-Mains</a></li>
+                            <li><a href="#">NEET</a></li>
+                            <li><a href="#">JIPMER</a></li>
+                            <li><a href="#">MH-CET</a></li>
+
+                        </ul>
+
+                    </span>
+
+                </div>
+                <div class="navbar_link">
+                    <span class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Notes<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Mathematics</a></li>
+                            <li><a href="#">Physics</a></li>
+                            <li><a href="#">Biology</a></li>
+                            <!-- <li class="divider"></li> -->
+                            <li><a href="#">Chemistry</a></li>
+                            <li><a href="#">Zoology</a></li>
+
+                        </ul>
+
+                    </span>
+
+                </div>
+                <div class="navbar_link">
+                    <a href="#about">About Us</a>
+
+                </div>
+                <div class="navbar_link">
+                    <a href="#"> Contact Us</a>
+
+                </div>
+            </nav>
+            <nav class="navbar_items  navbar_items-right">
+                <div class="navbar_linkr">
+                    Log In
+                </div>
+                <div class="navbar_linkr">
+                    Register
+                </div>
+
+
+            </nav>
+        </div>
+    </div>
+
+
+    <script>
+        function classToggle() {
+            const navs = document.querySelectorAll('.navbar_items')
+
+            navs.forEach(nav => nav.classList.toggle('navbar_toggleshow'));
+        }
+        document.querySelector('.navbar_link-toggle')
+            .addEventListener('click', classToggle);
+    </script>
+
+
+    <div class="trial"></div>
+    <!-- about us -->
+    <a href="#top"><img class="up" src="./icons/icons8-up-48.png"></a>
+    <div class="container">
+        <div id="about">
+            <img class="i" src="./oie_Gw5ReiUPOdiL.png" alt="" height="140px">
+            <div class="smedia">
+                <img src="./icons/icons8-linkedin-48.png" alt="">
+                <img src="./icons/icons8-instagram-48.png" alt="">
+                <img src="./icons/icons8-facebook-48.png" alt="">
+            </div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A sequi incidunt animi error fuga eligendi nulla
+            aspernatur! Magnam voluptatum itaque nam nobis officiis, natus aperiam! Vitae nam ducimus debitis adipisci
+            laboriosam similique! Vero accusantium beatae iste rem mollitia dolore impedit in, voluptates cum
+
+        </div>
+    </div>
+    <div class="footer">
+        &copy 2021 paras kirit khilosiya e-spardha.edu.in
+    </div>
+
+</body>
+
+</html>

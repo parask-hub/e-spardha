@@ -1,6 +1,7 @@
 *{
     margin:0px;
     padding: 0px;
+   
 }
 
 #header{
@@ -174,7 +175,7 @@
    height: fit-content;
    padding:0px 20px;
    border-radius: 30px; ;
-    background-color:rgba(0, 0, 0, 0.918);
+    background-color:rgba(0, 0, 0, 0.966);
     color: bisque;
     font-family: monospace;
     /* box-shadow: 5px 5px 20px black; */
@@ -185,7 +186,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 25px;
 }
 .start-test-btn{
     background-color:rgba(0, 0, 0, 0.445);
@@ -301,8 +302,10 @@
         display: flex;
         flex-direction: column;
         padding:5px 20px;
-        font-size: 0.8%;
         width:95%;
+    }
+    .test-container{
+        font-size: 2rem;
     }
     
   

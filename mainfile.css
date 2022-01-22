@@ -193,6 +193,8 @@
     font-size: 25px;
     padding: 0px 10px;
     border-radius: 10px;
+    text-decoration: none;
+    color:beige;
     border:1px solid white;
 }
 .start-test-btn:hover{

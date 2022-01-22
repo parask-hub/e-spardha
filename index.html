@@ -8,7 +8,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" media="max-width: 768px" href="mobile.css" />
     <link rel="stylesheet" href="mainfile.css">
-   
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,14 +19,15 @@
 <body>
 
 
-    <div class="buffer" id="top"><div class="banner">
-        <img src="./icons/espardha bannee.jpg" height="100px" width="100%">
-     <span class="center">e-spardha</span>
+    <div class="buffer" id="top">
+        <div class="banner">
+            <img src="./icons/espardha bannee.jpg" height="100px" width="100%">
+            <span class="center">e-spardha</span>
 
-   
-        
-    </div>
-       
+
+
+        </div>
+
     </div>
     <div id="header">
 
@@ -96,32 +97,33 @@
             </nav>
         </div>
     </div>
-    
 
 
-   
+
+
 
     <div class=" content">
-        <span id="tool-icon" onclick="toolfunction()"><img src="./icons/exam-g9bf4e5a6f_640.png" height = "60px" width="60px"></span>
+        <span id="tool-icon" onclick="toolfunction()"><img src="./icons/exam-g9bf4e5a6f_640.png" height="60px"
+                width="60px"></span>
         <div id="tool-container">
             <img src="./icons/mathtools.jpg" height="200px" width="200px">
             <button class="mtool-btn">Try Tools</button>
         </div>
-       
-      
+
+
         <div class="test-section">
-            <img src="./icons/Online test-rafiki.png"  height="300px" width="300px"alt="">
+            <img src="./icons/Online test-rafiki.png" height="300px" width="300px" alt="">
             <div class="test-container">
-                
-                
-                    
-                 <p>Test Topic  : Rotational Motion</p>
-                 <button class="start-test-btn"> start test </button>
+
+
+
+                <p>Test Topic : Rotational Motion</p>
+                <button class="start-test-btn"><a href="test_home_page.html"> start test </a></button>
 
             </div>
         </div>
     </div>
-    
+
     <a href="#top"><img class="up" src="./icons/icons8-up-48.png"></a>
     <div class="container">
         <div id="about">
@@ -144,22 +146,20 @@
         &copy 2021 paras kirit khilosiya e-spardha.edu.in
     </div>
     <script>
-        function toolfunction()
- {
-     var tool_container = document.getElementById("tool-container");
-     if(tool_container.style.display ==="none")
-     {
-         tool_container.style.display = "block";
-         tool_container.style.position = "fixed";
-     }
-     else{
-         tool_container.style.display="none"
-         tool_container.style.position = "fixed";
-         tool_container.style.top="100px";
+        function toolfunction() {
+            var tool_container = document.getElementById("tool-container");
+            if (tool_container.style.display === "none") {
+                tool_container.style.display = "block";
+                tool_container.style.position = "fixed";
+            }
+            else {
+                tool_container.style.display = "none"
+                tool_container.style.position = "fixed";
+                tool_container.style.top = "100px";
 
-     }
+            }
 
- }
+        }
     </script>
     <script src="script.js"></script>
 

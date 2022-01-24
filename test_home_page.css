@@ -1,5 +1,5 @@
 :root{
-    background-color: #ecf5ff;
+    background:repeating-radial-gradient(circle at 0 0 ,rgb(167, 138, 180),rgb(114, 51, 143), rgb(78, 0, 114) 80vh);
     font-size:62.5%;
 }
 *{
@@ -11,11 +11,23 @@
 }
 h1,h2,h3,h4{
     margin-bottom: 1rem;
+   
+}
+hr{
+    height:3px;
+    background-color: rgb(19, 19, 77);
+}
+h4{
+    font-size: 12px;
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+    line-height: 18px;
+    margin-left: 10px;
 }
 h1{
     font-size: 5.4rem;
     color:#56a5eb;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 
 h1>span{
@@ -75,6 +87,7 @@ h3{
     text-decoration: none;
     color:#56a5eb;
     background-color: white;
+    border-radius: 10px;
 }
 
 .btn:hover{
@@ -89,4 +102,28 @@ h3{
     cursor:not-allowed;
     box-shadow:none;
     transform:none;
+}
+#home{
+    margin-top: 10px;
+    box-shadow: 10px 10px 10px black;
+    padding: 10px;
+    background-color: cornsilk;
+    max-width: 90vw;
+    
+    
+}
+.head{
+    background-color: rgb(243, 243, 243);
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 400;
+   box-shadow: rgb(20, 7, 20) 10px 10px 10px;
+   position:fixed;
+   width: 100%;
 }

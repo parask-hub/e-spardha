@@ -1,3 +1,7 @@
+:root{
+    background-color: #8cb5d893;
+    font-size:62.5%;
+}
 .choice-container
 {
     display:flex;

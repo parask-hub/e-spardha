@@ -1,6 +1,28 @@
 :root{
-    background-color: #8cb5d893;
+    
     font-size:62.5%;
+}
+body{
+     background: 
+    repeating-radial-gradient(
+      circle at 0 0, 
+      rgb(61, 61, 236),
+      rgb(0, 65, 139) 100vh
+    );
+  
+}
+.header{
+font-family: 'Lobster Two', cursive;
+font-size: 50px;
+
+position:absolute;
+top:0;
+left: 0px;
+padding:5px 0px 5px 10px;
+color: rgb(236, 255, 253);
+/* background-color: black;s */
+width:100%;
+
 }
 .choice-container
 {
@@ -29,4 +51,57 @@
 .choice-text{
     padding: 1.5rem;
     font-size: 1.7rem;
+}
+#test{
+    background-color: rgb(255, 254, 254);
+    padding: 2rem;
+    padding-bottom: 00.5rem;
+    height: fit-content;
+    max-width: 90vw;
+    border-radius: 20px;
+   box-shadow: 1rem 1rem black, -1rem -1rem #ccc;
+   
+}
+#question{
+   
+    margin-bottom: 0px;
+    font-size: 3rem;
+
+}
+hr{
+    margin:20px 0px;
+}
+#nav_que{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+   
+}
+.btn{
+      background-color: #00498a;
+    color: antiquewhite;
+
+}
+.prev_btn:hover{
+   background-color: darkred;
+}
+.next_btn:hover{
+    background-color: rgb(2, 126, 2);
+    /* border: solid 1px white; */
+}
+
+@media only screen and  (max-width:1000px)
+{
+    #question{
+   
+ 
+    font-size: 2rem;
+
+}
 }

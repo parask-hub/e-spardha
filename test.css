@@ -7,7 +7,7 @@ body{
     repeating-radial-gradient(
       circle at 0 0, 
       rgb(61, 61, 236),
-      rgb(0, 65, 139) 100vh
+      rgb(0, 65, 139) 50vh
     );
   
 }
@@ -59,7 +59,7 @@ width:100%;
     height: fit-content;
     max-width: 90vw;
     border-radius: 20px;
-   box-shadow: 1rem 1rem black, -1rem -1rem #ccc;
+   box-shadow: 0.6rem 0.6rem black, -0.6rem -0.6rem #ccc;
    
 }
 #question{
@@ -104,4 +104,13 @@ hr{
     font-size: 2rem;
 
 }
+#test{
+    font-size: 0.5rem;
+
+}
+.btn{
+    width:fit-content;
+    padding: 123px;
+}
+
 }

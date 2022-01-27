@@ -109,8 +109,9 @@ hr{
 
 }
 .btn{
-    width:fit-content;
-    padding: 123px;
+    width:123px;
+    padding: 10px;
+   
 }
 
 }

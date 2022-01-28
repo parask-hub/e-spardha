@@ -48,10 +48,15 @@ width:100%;
      font-size: 1.7rem;
 
 }
-.choice-text{
+#choice1,#choice2,#choice3,#choice4{
     padding: 1.5rem;
     font-size: 1.7rem;
 }
+
+.choice-container:active{
+    background-color: blue;
+}
+
 #test{
     background-color: rgb(255, 254, 254);
     padding: 2rem;

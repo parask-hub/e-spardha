@@ -1,11 +1,20 @@
 const question = document.getElementById("question");
-const choices = Array.from(document.getElementsByClassName("choice-text"));
+// const choices = Array.from(document.getElementsByClassName("choice-text"));
+// console.log(choices);
+const choice1 = document.getElementById("choice1");
+const choice2 = document.getElementById("choice2");
+const choice3 = document.getElementById("choice3");
+const choice4 = document.getElementById("choice4");
+
 
 let currentquestion = {};
-let acceptanswer = true;
+let acceptanswers = true;
 let score = 0;
 let questioncounter = 0;
-let availblequestion = [];
+let availablequestion = [];
+let opt = 0;
+
+
 let questions = [
     {
         question: " Inside Which HTML Element do we get the javascript ?",
@@ -35,24 +44,53 @@ let questions = [
 
 
 ]
-// constant
-const correct_bonus = 10;
-const max_questions = 3;
+
+//constants 
+const Correct_bonus = 10;
+const max_question = 3;
+
 starttest = () => {
     questioncounter = 0;
     score = 0;
-    availblequestion = [...questions];
+    availablequestion = [...questions];
+    console.log(availablequestion);
     getnewquestion();
+}
 
 
-};
 
 getnewquestion = () => {
-    questioncounter++;
-    const questionindex = Math.floor(math.random() = availblequestion.length);
-    currentquestion = availblequestion[questionindex];
+    currentquestion = availablequestion[questioncounter];
     question.innerText = currentquestion.question;
-
+    choice1.innerText = currentquestion.choice1;
+    choice2.innerText = currentquestion.choice2;
+    choice3.innerText = currentquestion.choice3;
+    choice4.innerText = currentquestion.choice4;
 }
+
+function prev() {
+    questioncounter--;
+    getnewquestion();
+}
+function next() {
+    questioncounter++;
+    getnewquestion();
+}
+function check() {
+    choice1.style.color = "red";
+}
+
+let bg = document.getElementsByClassName("choice-container");
+console.log(bg);
+
+
+// function check() {
+//     if (choosed == currentquestion.answer) {
+//         alert(" You choosed correct option");
+//     }
+//     else {
+//         alert(" You choosed wrong option");
+//     }
+// }
 
 starttest();

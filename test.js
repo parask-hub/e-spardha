@@ -81,7 +81,7 @@ function check() {
 }
 
 let bg = document.getElementsByClassName("choice-container");
-console.log(bg);
+
 
 
 // function check() {

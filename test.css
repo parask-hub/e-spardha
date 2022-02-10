@@ -1,122 +1,102 @@
-:root{
-    
-    font-size:62.5%;
+:root {
+  font-size: 62.5%;
 }
-body{
-     background: 
-    repeating-radial-gradient(
-      circle at 0 0, 
-      rgb(61, 61, 236),
-      rgb(0, 65, 139) 50vh
-    );
-  
+body {
+  background: repeating-radial-gradient(
+    circle at 0 0,
+    rgb(61, 61, 236),
+    rgb(0, 65, 139) 50vh
+  );
 }
-.header{
-font-family: 'Lobster Two', cursive;
-font-size: 50px;
+.header {
+  font-family: "Lobster Two", cursive;
+  font-size: 50px;
 
-position:absolute;
-top:0;
-left: 0px;
-padding:5px 0px 5px 10px;
-color: rgb(236, 255, 253);
-/* background-color: black;s */
-width:100%;
-
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 5px 0px 5px 10px;
+  color: rgb(236, 255, 253);
+  /* background-color: black;s */
+  width: 100%;
 }
-.choice-container
-{
-    display:flex;
-    margin-bottom: 0.5rem;
-    width: 100%;
-    font-size: 1rem;
-    border :0.1rem solid rgb(86,165,235,0.25);
-    background-color: white;
-
+.choice-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1rem;
+  border: 0.1rem solid rgb(86, 165, 235, 0.25);
+  background-color: white;
 }
-.choice-container:hover{
-    cursor:pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(21, 84, 116, 0.5);
-    transform:translateY(-0.1rem);
-    transition: transform 150ms;
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(21, 84, 116, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
 }
 
-.choice-prefix{
-    padding:1.5rem 2.5rem;
-    background-color: #56a5eb;
-    color:white;
-     font-size: 1.7rem;
-
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: #56a5eb;
+  color: white;
+  font-size: 1.7rem;
 }
-#choice1,#choice2,#choice3,#choice4{
-    padding: 1.5rem;
-    font-size: 1.7rem;
-}
-
-.choice-container:active{
-    background-color: blue;
+#choice1,
+#choice2,
+#choice3,
+#choice4 {
+  padding: 1.5rem;
+  font-size: 1.7rem;
 }
 
-#test{
-    background-color: rgb(255, 254, 254);
-    padding: 2rem;
-    padding-bottom: 00.5rem;
-    height: fit-content;
-    max-width: 90vw;
-    border-radius: 20px;
-   box-shadow: 0.6rem 0.6rem black, -0.6rem -0.6rem #ccc;
-   
+#test {
+  background-color: rgb(255, 254, 254);
+  padding: 2rem;
+  padding-bottom: 00.5rem;
+  height: fit-content;
+  max-width: 90vw;
+  border-radius: 20px;
+  box-shadow: 0.6rem 0.6rem black, -0.6rem -0.6rem #ccc;
 }
-#question{
-   
-    margin-bottom: 0px;
-    font-size: 3rem;
-
+#question {
+  margin-bottom: 0px;
+  font-size: 3rem;
 }
-hr{
-    margin:20px 0px;
+hr {
+  margin: 20px 0px;
 }
-#nav_que{
-    margin-top: 20px;
-    margin-bottom: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
+#nav_que {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-   
+.container {
+  display: flex;
+  flex-direction: column;
 }
-.btn{
-      background-color: #00498a;
-    color: antiquewhite;
-
+.btn {
+  background-color: #00498a;
+  color: antiquewhite;
 }
-.prev_btn:hover{
-   background-color: darkred;
+.prev_btn:hover {
+  background-color: darkred;
 }
-.next_btn:hover{
-    background-color: rgb(2, 126, 2);
-    /* border: solid 1px white; */
+.next_btn:hover {
+  background-color: rgb(2, 126, 2);
+  /* border: solid 1px white; */
 }
 
-@media only screen and  (max-width:1000px)
-{
-    #question{
-   
- 
+@media only screen and (max-width: 1000px) {
+  #question {
     font-size: 2rem;
-
-}
-#test{
+  }
+  #test {
     font-size: 0.5rem;
-
-}
-.btn{
-    width:123px;
+  }
+  .btn {
+    width: 123px;
     padding: 10px;
-   
-}
-
+  }
 }
